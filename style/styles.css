@@ -139,3 +139,72 @@
     padding-top: 150px;
     line-height: 56px;
 }
+
+/* ****************coming soon part************** */
+.section-contant-info{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    margin-top: 120px;
+    gap: 70px;
+}
+
+.contant-sub-titel{
+    color: #E55473;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contant-title{
+    margin-top: 16px;
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.contant-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 393px;
+    margin-top: 22px;
+    
+}
+.images-rounded{
+    width: 364px;
+    height: 364px;
+    border: 15px solid #E55473;
+    border-radius: 50%;
+    padding: 20px;
+}
+.images-rounded img{
+    width: 364px;
+    height: 364px;
+}
+
+.year-part{
+    margin-top: 50px;
+}
+.year{
+    color:#E55473;
+    font-size: 48px;
+    font-weight: 700;
+}
+.year-part-dis{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-top: 25px;
+}
+.year-part img{
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+}
