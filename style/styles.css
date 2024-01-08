@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/******* sheard element  *********/
+
+/************header bannar part**********/
+.header{
+    /* background-image: url(../image/Banner\ Image.png);  */
+    width: 1320px;
+    height: 600px;  
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../image/Banner\ Image.png);
+}
+
+.bannar{
+    text-align: center;
+    padding: 177px;
+}
+
+.bannar-sub-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.bannar-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+
+/********* discount and 65% OFF part ***********/
+.section{
+    text-align: center;
+    margin-top: 120px;
+}
+.section-title{
+    
+    color: #E55473;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+.section-discript{
+    margin-top: 30px;
+    color: #E55473;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.section-sub-title{
+    font-family: 'Inter', sans-serif;
+    margin-top: 16px;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-img{
+    width: 802.9px;
+    height: 500px;
+    margin: auto;
+    margin-top: 38px;
+}
