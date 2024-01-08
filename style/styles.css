@@ -309,8 +309,14 @@
     margin-bottom: 40px;
 }
 
-
+.portfolio-img img:hover{
+    width:424px ;
+    height: 450px;
+}
 .portfolio-img img{
+    
     margin-right: 20px;
     margin-top: 20px;
+    width: 324px;
+    height: 350px;
 }
