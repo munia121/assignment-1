@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:ital,wght@0,900;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -69,4 +73,55 @@
     height: 500px;
     margin: auto;
     margin-top: 38px;
+}
+
+/* welcome party section  */
+.container{
+    
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../image/Vectorrr.png);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 120px;
+
+}
+.container-info{
+    padding-top: 170px;
+    
+}
+.container-title{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 5.04px;
+}
+.container-description{
+    margin-top: 24px;
+    width: 697px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.container-img{
+    width: 319.83px;
+    height: 464.662px;
+    padding-top:80px ;
+}
+.btn{
+    background-color:  #E55473;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 30px;
 }
