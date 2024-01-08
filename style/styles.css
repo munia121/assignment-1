@@ -213,6 +213,7 @@
 /* **********************Holidays part******************* */
 .holiday-container{
     text-align: center;
+    /* position: relative; */
 }
 .holiday-container-sub-title{
     color: #070211;
@@ -242,4 +243,36 @@
     width: 1068px;
     margin: auto;
     margin-top: 30px;
+}
+/* hodiday image part  */
+.holiday-container-images{
+    display: flex;
+    justify-content: end;
+    margin-top: 65px;
+}
+
+.group-img{
+    position: relative;
+    position: absolute;
+    margin-right:580px;
+    margin-top: 65px;
+
+}
+
+.reg-img{
+    margin-right: 300px;
+}
+
+.contribute{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.regd-img{
+    position: absolute;
+    margin-top: 380px;
+    margin-right: 510px;
+}
+
+.group75-img{
+    position: relative;
 }
